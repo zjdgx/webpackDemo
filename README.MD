@@ -12,7 +12,7 @@
 
 # JS编译
 
--使用webpack的loaders: coffee-loader、babel-loader(Example)
+- 使用webpack的loaders: coffee-loader、babel-loader(Example)
 ```
 module: {
    loaders: [
@@ -21,7 +21,7 @@ module: {
    ]
 }
 ```
--不使用后缀名需要添加resolve.extensions
+- 不使用后缀名需要添加resolve.extensions
 ```
 resolve: {
    // you can now require('file') instead of require('file.coffee')
